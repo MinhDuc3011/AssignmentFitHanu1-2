@@ -1,0 +1,251 @@
+html {
+	margin: 0;
+	padding: 0;
+	background-color: burlywood;
+	}
+body {
+	font-family: sans-serif;
+	color: black ;
+	line-height: 1.88889;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	background: url(https://www.akrpg.com/images/AnimalCrossing/Bamboo-Partition-Green-bamboo.png) no-repeat bottom right; 
+}
+p {
+	margin-top: 0px;
+	text-align: justify;
+	padding-right: 3px;
+}
+h3 {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-transform: uppercase;
+	font-style: initial;
+	font-weight: bold;
+	font-size: 25px;
+	color: black;
+	font-style: italic;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+}
+a:link {
+	font-weight: bold; 
+	font-style: italic;
+	text-decoration: underline; 
+	color: blue;
+}
+a:visited {
+	font-style: italic;
+	font-weight: bold; 
+	text-decoration: underline; 
+	color: blue;
+}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: tomato;
+}
+abbr {
+		border-bottom: violet;
+}
+.page-wrapper { 
+	background: transparent url(wrapeer.png) no-repeat top right;
+	padding: 0 175px 0 110px;  
+	margin: 0; 
+	position: relative;
+	}
+.intro { 
+		min-width: 470px;
+		width: 100%;
+		color: black;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-size: 14px ;
+}
+header h1 {
+	background: transparent url(headerh1.png) no-repeat;
+	width: 720px;
+	height: 120px;
+	text-indent: 100%;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.summary {
+	clear: both; 
+	text-align: center;
+	color: black;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 18px;
+	float: left;
+}
+.summary p {
+	color: black;
+	font-size: 17px;
+	font: italic 1.1em/2.2 georgia; 
+	text-align: center;
+	}
+.preamble  {
+	border: double;
+	border-width: 2px;
+	box-shadow: 2px 5px 25px black;
+	background-color:whitesmoke;
+	max-width:1800px ;
+	max-height: 2515255215px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+	font-size: 17px;
+	margin-bottom: 40px;
+}
+.explanation {
+	border: double;
+	border-width: 2px;
+	padding-left: 10px; 
+	margin-bottom: 40px;
+	box-shadow: 2px 5px 25px black;
+	background-color: whitesmoke;
+	max-width:1800px ;
+	max-height: 2515255215px;
+	font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.participation {
+	border: double;
+	border-width: 2px;
+	padding-left: 10px; 
+	margin-bottom: 40px;
+	box-shadow: 2px 5px 25px black;
+	background-color: whitesmoke;
+	max-width:1800px ;
+	max-height: 2515255215px;
+	font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.benefits {
+	border: double;
+	border-width: 2px;
+	padding-left: 10px; 
+	margin-bottom: 40px;
+	box-shadow: 2px 5px 25px black;
+	background-color: whitesmoke;
+	max-width:1800px ;
+	max-height: 2515255215px;
+	font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.requirements {
+	border: double;
+	border-width: 2px;
+	padding-left: 10px; 
+	margin-bottom: 40px;
+	box-shadow: 2px 5px 25px black;
+	background-color: whitesmoke;
+	max-width:1800px ;
+	max-height: 2515255215px;
+	font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+footer { 
+	text-align: center; 
+	font-size: 15px;
+}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
+.sidebar {
+	margin-left: 600px; 
+	position: absolute; 
+	top: 0; 
+	right: 0;
+}
+.sidebar .wrapper { 
+	border: double;
+	border-width: 2px;
+	font: 10px verdana, sans-serif; 
+	background: transparent url(sidebar.jpg) top left repeat-y; 
+	padding: 10px; 
+	margin-top: 150px; 
+	width: 100px; 
+}
+.sidebar h3.select { 
+	margin: 30px 0 5px 0; 
+	color: black;
+	width: 97px; 
+	height: 16px; 
+	font-size: 10px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	white-space: nowrap;
+	
+}
+.sidebar h3.archives { 
+	margin: 25px 0 5px 0; 
+	color: black;
+	width:57px; 
+	height: 14px; 
+    font-size: 10px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	white-space: nowrap;
+}
+.sidebar h3.resources { 
+	margin: 25px 0 5px 0; 
+	color: black;
+	width:63px; 
+	height: 10px; 
+    font-size: 10px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	white-space: nowrap;
+}
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+}
+.sidebar li {
+	line-height: 1.3em; 
+	background: transparent url(http://csszengarden.com/001/cr1.gif) no-repeat top center; 
+	display: block; 
+	padding-top: 5px; 
+	margin-bottom: 5px;
+	list-style-type: none;
+}
+.sidebar li a:link {
+	color: orangered;
+}
+.sidebar li a:visited {
+	color: blue;
+}
+@media screen and (max-width: 1000px) {
+	p {
+		font-size: 85%;
+		padding: 10px;
+	}
+	h3 {
+		font-size: 120%;
+		margin: 0 10px 0 10px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.page-wrapper {
+		padding: 10px;
+	}
+	p {
+		font-size: 80%;
+		padding: 10px;
+	}
+	h3 {
+		font-size: 120%;
+		margin: 0 10px 0 10px;
+	}
+	.sidebar {
+		position: relative;
+		display: block;
+		margin: 0;
+		border-width: 90%;
+		background: transparent url(sidebar.jpg) repeat-y; 
+		padding: 10px; 
+		margin-top: 0px; 
+		width: 100%; 
+	}
+}
+
+
