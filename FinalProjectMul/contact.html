@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <!-- <link rel="stylesheet" href="./assets/responsive.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./assets/img/icon.png" />
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <script src="main.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./assets/img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                   
+                    <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="courses.html">COURSES</a>
+                        <!-- <ul><a href="course_1.html">COURSE 1</a></ul>
+                        <ul><a href="course_2.html">COURSE 2</a></ul> -->
+                    </li>
+                    <li>
+                        <a href="teacher.html">TEACHERS</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+                <i class="fa fa-bars" onclick = "showMenu()" ></i>
+        </nav>
+        <h1>Contact</h1>
+    </section>
+
+
+    <!-- Content -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.0959274684687!2d105.79344241423381!3d20.988791494518974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135adb29ed54487%3A0xbe22035eae87b5d7!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1638069172149!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                <i class="fa fa-home"></i> 
+                <span>
+                    <h5>Room 209, Building C, Hanoi University</h5>
+                    <p class="main-info">Km 9, Nguyen Trai Road, District Nam Tu Liem, Ha Noi, Viet Nam</p>
+                </span>       
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5><a class="info" href="tel: (84-24) 38544338">(84-24) 38544338</a></h5>
+                        <p class="main-info">Monday to Friday, 7h30AM to 16h30PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-open"></i>
+                    <span>
+                        <h5><a class="info" href="mailto: hanu@hanu.edu.vn | tuyensinh@hanu.edu.vn"> hanu@hanu.edu.vn | tuyensinh@hanu.edu.vn</a></h5>
+                        <p class="main-info">Email us</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message"></textarea>
+                    <button type="submit" class="my-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+
+     <!-- Footer -->
+     <section class="footer">
+        <h4>About Us</h4>
+        <p class="footer-content">Being the first public educational institution in Vietnam to teach all majors entirely in foreign languages ​​with a history of more than 60 years of operation.</p>
+        <div class="icons">
+            <!-- <i class="fab fa-facebook"></i> -->
+            <a href="https://www.facebook.com/HanuUniqueExhibition/" class ="fab fa-facebook"></a>
+            <a href="https://www.instagram.com/hue.club/" class="fab fa-instagram"></a>
+            <a href ="https://hanu.vn/c/6912/Chuong-trinh-dao-tao-Dai-hoc-chinh-quy" class="fab fa-linkedin"></a>
+            <i class="fab fa-github"></i>
+        </div>
+    </section>
+
